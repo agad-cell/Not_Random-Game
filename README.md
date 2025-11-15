@@ -31,10 +31,10 @@
 
 ### How to Use
 
-* Unzip the purchased files (if packaged).
+* Unzip the files.
 * Open the index.html file in any modern web browser (Chrome, Firefox, Edge, Safari).
 * Click through the game pages to start your interactive seed journey.
-* Everything runs locally—no installation or internet required (except fonts if not included).
+* Everything runs locally—no installation or internet required (except fonts).
 
 
 ## Project Structure
@@ -98,6 +98,7 @@ You may use it for your own purposes but may NOT:
 For permissions or inquiries regarding modifications, redistribution, or commercial use, please contact Farhan Ahmed via:  
 Discord: darkstrom_45
 Email: saiqabaloch79@gmail.com
+
 
 
 
