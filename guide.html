@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide</title>
+</head>
+
+<style>
+    html,
+    body {
+        overflow: hidden;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', Arial, sans-serif;
+        background: linear-gradient(135deg, #1a1a1a, #333);
+        color: #eee;
+        min-height: 100vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .guide_container {
+        max-width: 800px;
+        width: 90%;
+        padding: 40px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        text-align: center;
+
+    }
+
+    .guide_container h1 {
+        font-family: 'Cinzel', serif;
+        font-family: 'Poppins', Arial, sans-serif;
+        font-size: 48px;
+        margin-bottom: 20px;
+        color: #f7c59f;
+    }
+
+    .guide_container p {
+        font-size: 18px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        color: #ddd;
+    }
+
+
+    .parent2 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        height: 50px;
+        align-items: center;
+    }
+
+
+
+    .parent2 .game_start {
+        padding: 12px 25px;
+        border: 3px solid #f7c59f;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #f7c59f;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        background-color: #000;
+    }
+
+    .parent2 .game_start:hover {
+        background: #eebd97;
+        color: #000;
+        transform: scale(1.08);
+    }
+
+    .note {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 15px 20px;
+        border-left: 5px solid #f7c59f;
+        margin: 15px 0;
+        font-style: italic;
+    }
+
+
+    @media (max-width: 480px) {
+        body {
+
+            height: 80%;
+            background-attachment: fixed;
+            font-size: 20px;
+        }
+
+        .guide_container {
+            height: 480px;
+            width: 300px;
+        }
+
+        .guide_container h1 {
+            font-size: 2rem;
+        }
+
+        .guide_container p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .note {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 1rem;
+            line-height: 1.4;
+            padding: 8px 11px;
+        }
+
+        .parent2 {
+            height: 40px;
+        }
+
+        /* .game_start {
+            position: relative;
+            z-index: 9999;
+        } */
+    }
+</style>
+
+
+<body>
+
+    <div class="guide_container">
+        <h1>Welcome to the Garden</h1>
+        <p>The game ahead is mysterious. You will have only three rounds to discover secrets hidden among the seeds.</p>
+        <div class="note">Hint: Not every seed holds a message. Some are empty… some hold truths.</div>
+        <p>Take your time. Observe. Reflect. Your journey is unique and unpredictable.</p>
+
+    </div>
+
+
+
+
+
+    <div class="parent2">
+        <a href="index.html" class="game_start">Do You Really Want to Know?</a>
+    </div>
+
+
+</body>
+
+</html>
+
+
+<!--  Designed by Farhan Ahmed, do not copy   -->
+
+<!-- all guidance is here -->

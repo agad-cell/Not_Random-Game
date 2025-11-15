@@ -1,0 +1,111 @@
+body {
+  /* background: linear-gradient(135deg, #0f0f0f, #1e1e1e, #2c2c2c); */
+/* background: linear-gradient(120deg, #2e1a12, #4b2e23, #7b4a36); */
+/* background: linear-gradient(145deg, #1b1b1b, #3c2f2f, #75553d); */
+/* background: linear-gradient(160deg, #0a0a0a, #1f1f1f, #2e2e2e, #00bcd4); */
+/* background: linear-gradient(135deg, #2c1810, #3b241b, #1a0d07); */
+/* background: linear-gradient(135deg, #000000, #1c1b33, #311b92); */
+/* background: linear-gradient(135deg, #1e130c, #3e2723, #5d4037, #a1887f); */
+/* background: linear-gradient(120deg, #000000, #332019, #663826); */
+/* background: linear-gradient(135deg, #0a0f24, #102a4c, #1e3a8a); */
+/* background: linear-gradient(120deg, #001f3f, #0074D9, #7FDBFF); */
+/* background: linear-gradient(145deg, #001219, #005f73, #0a9396, #94d2bd); */
+/* background: linear-gradient(160deg, #03045e, #0077b6, #00b4d8, #90e0ef); */
+/* background: linear-gradient(135deg, #000814, #001d3d, #003566, #0077b6); */
+/* background: linear-gradient(120deg, #1e3c72, #2a5298); */
+/* background: linear-gradient(135deg, #010326, #021859, #0a84ff); */
+  background: linear-gradient(145deg, #305989, #3f72af, #dbe2ef);
+  /* background: linear-gradient(135deg, #001219, #004e89, #00a6fb); */
+/* background: linear-gradient(160deg, #0f2027, #203a43, #2c5364); */
+/* background: linear-gradient(135deg, #0f0f0f, #2e1a12); */
+/* background: radial-gradient(circle at top, #0a0a0a 0%, #000 100%); */
+
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+  overflow-x: hidden
+
+}
+
+.seeds_part img {
+  width: 90px;
+  max-width: 100%;
+  margin: auto
+}
+
+.seeds_part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: rgba(255, 255, 255, .03);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 215, 0, .1)
+}
+
+.mystery {
+  display: none;
+  background: rgba(0, 0, 0, .9);
+  color: gold;
+  padding: 8px 12px;
+  border-radius: 10px;
+  top: -45px;
+  width: 180px;
+  font-size: 15px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, .2)
+}
+
+.seed2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer
+}
+
+.seed2 input:checked+img+.mystery {
+  display: block;
+  animation: .4s fadeIn
+}
+
+h1 {
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 42px;
+  color: #e7e5d9;
+  text-shadow: 0 0 10px #e0d389, 0 0 25px #e6bb87;
+  letter-spacing: 3px;
+  margin-top: 60px
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -10px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0)
+  }
+}
+
+@media (max-width:480px) {
+  h1 {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center
+  }
+
+  .mystery {
+    width: 140px;
+    top: -30px;
+    padding: 6px;
+    font-size: 14px
+  }
+}
+
+
+
+
+
+
+ /* Designed by Farhan Ahmed, do not copy  */
